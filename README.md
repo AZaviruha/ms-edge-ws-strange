@@ -29,6 +29,7 @@ By the way, "localhost" works for "wss://", and "127.0.0.1" works for
 
 
 To reproduce this for "ws://":
+
 1. Run `node index.js` to run static server.
 
 2. Run `node client-app-ws.js` to run web-socket server.
@@ -45,6 +46,7 @@ To reproduce this for "ws://":
 
 
 To reproduce this for "wss://":
+
 1. Run `node client-app-wss.js` to run secure web-socket server.
 
 2. Open http://127.0.0.1:9446 in MS Edge and open "insecure" page with
