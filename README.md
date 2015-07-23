@@ -22,7 +22,7 @@ generate exception, when you call it with wrong host argument.
     }
 ```
 
-Becouse of this, you can't "retry" to connect with different hosts.
+Because of this, you can't "retry" to connect with different hosts.
 
 By the way, "localhost" works for "wss://", and "127.0.0.1" works for
 "ws://" :)
